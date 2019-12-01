@@ -26,9 +26,7 @@
       <layout-logout/>
 
   </nav>
-
 </template>
-
 <script>
 import LayoutLogout from './LayoutLogout'
 import LayoutNewCirurgia from './LayoutNewCirurgia'

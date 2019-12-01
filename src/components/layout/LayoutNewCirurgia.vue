@@ -103,6 +103,7 @@
                 class="btn btn-secondary"
                 @click="closeModal()"
               >
+
                 Fechar
                </button>
               <button class="btn btn-primary" :disabled="loading">
