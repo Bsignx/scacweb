@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+@import '../../../node_modules/bootstrap/dist/css/bootstrap.css';
+@import '../../../node_modules/@fortawesome/fontawesome-free/css/all.css';
+@import 'variables';
+             
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+    .btn-primary {
+      color: #fff;
+      background-color: $secundary !important;
+      border-color: $secundary !important;
+    }
+    
+  .btn-primary:hover {
+      color: #fff; 
+      background-color: $SELECTED !important;
+      border-color: $SELECTED !important;
+    } 
+    
+  .btn-primary:focus, .btn-primary.focus {
+      box-shadow: 0 0 0 0.0rem $SELECTED !important;
+    }
+    
+  .btn-primary.disabled, .btn-primary:disabled {
+      color: #fff;
+      background-color: $SELECTED !important;
+      border-color: $SELECTED !important;
+    }
+    
+  .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+  .show > .btn-primary.dropdown-toggle {
+      color: #fff;
+      background-color: $SELECTED !important;
+      border-color: $SELECTED !important;
+    }
+    
+  .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-primary.dropdown-toggle:focus {
+      box-shadow: 0 0 0 0.2rem $SELECTED !important;
+    }
+
+  .btn-outline-primary{
+    border-color: white !important;
+    color: white !important;
+    &:hover{
+      
+      background-color: $SELECTED !important;
+    }
+  }
+
+
